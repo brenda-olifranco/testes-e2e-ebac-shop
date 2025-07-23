@@ -1,0 +1,260 @@
+{
+  "stats": {
+    "suites": 2,
+    "tests": 0,
+    "passes": 0,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-07-23T22:45:51.160Z",
+    "end": "2025-07-23T22:45:51.167Z",
+    "duration": 7,
+    "testsRegistered": 4,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 2,
+    "hasOther": true,
+    "skipped": 4,
+    "hasSkipped": true
+  },
+  "results": [
+    {
+      "uuid": "bc59c5a1-aa87-4736-8245-748bf98260df",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "c13d7db3-7c25-432b-90d4-f38dd7446e19",
+          "title": "Exercicio - Testes End-to-end - Fluxo de pedido",
+          "fullFile": "C:\\Users\\Pichau\\Documents\\EBAC\\QA\\16.1 - jenkins\\testes-e2e-ebac-shop\\cypress\\integration\\exercicio-e2e.spec.js",
+          "file": "\\cypress\\integration\\exercicio-e2e.spec.js",
+          "beforeHooks": [
+            {
+              "title": "\"before each\" hook for \"Deve fazer um pedido na loja Ebac Shop de ponta a ponta\"",
+              "fullTitle": "Exercicio - Testes End-to-end - Fluxo de pedido \"before each\" hook for \"Deve fazer um pedido na loja Ebac Shop de ponta a ponta\"",
+              "timedOut": false,
+              "duration": 0,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('/')",
+              "err": {
+                "message": "ReferenceError: cy is not defined",
+                "estack": "ReferenceError: cy is not defined\n    at Context.<anonymous> (cypress\\integration\\exercicio-e2e.spec.js:13:9)\n    at process.processImmediate (node:internal/timers:478:21)",
+                "diff": null
+              },
+              "uuid": "52c07f73-095e-49eb-b404-b8c77baec817",
+              "parentUUID": "c13d7db3-7c25-432b-90d4-f38dd7446e19",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Deve fazer um pedido na loja Ebac Shop de ponta a ponta",
+              "fullTitle": "Exercicio - Testes End-to-end - Fluxo de pedido Deve fazer um pedido na loja Ebac Shop de ponta a ponta",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "//TODO",
+              "err": {},
+              "uuid": "f5671dcc-ab71-4e16-8305-a334478ade94",
+              "parentUUID": "c13d7db3-7c25-432b-90d4-f38dd7446e19",
+              "isHook": false,
+              "skipped": true
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [
+            "f5671dcc-ab71-4e16-8305-a334478ade94"
+          ],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "dd5626f7-ae82-4215-8a62-e938728b85f5",
+          "title": "Funcionalidade Login",
+          "fullFile": "C:\\Users\\Pichau\\Documents\\EBAC\\QA\\16.1 - jenkins\\testes-e2e-ebac-shop\\cypress\\integration\\login.spec.js",
+          "file": "\\cypress\\integration\\login.spec.js",
+          "beforeHooks": [
+            {
+              "title": "\"before all\" hook for \"Login com sucesso usando Comando customizado\"",
+              "fullTitle": "Funcionalidade Login \"before all\" hook for \"Login com sucesso usando Comando customizado\"",
+              "timedOut": false,
+              "duration": 0,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "cy.fixture('perfil').then(perfil => {\n    dadosLogin = perfil\n})",
+              "err": {
+                "message": "ReferenceError: cy is not defined",
+                "estack": "ReferenceError: cy is not defined\n    at Context.<anonymous> (cypress\\integration\\login.spec.js:6:9)\n    at process.processImmediate (node:internal/timers:478:21)",
+                "diff": null
+              },
+              "uuid": "2927e87a-3bd6-48a0-bc28-cc7a353ff677",
+              "parentUUID": "dd5626f7-ae82-4215-8a62-e938728b85f5",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"before each\" hook",
+              "fullTitle": "Funcionalidade Login \"before each\" hook",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('minha-conta')",
+              "err": {},
+              "uuid": "671cb01d-de37-470d-995c-98df2bfebb8b",
+              "parentUUID": "dd5626f7-ae82-4215-8a62-e938728b85f5",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [
+            {
+              "title": "\"after each\" hook",
+              "fullTitle": "Funcionalidade Login \"after each\" hook",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.screenshot()",
+              "err": {},
+              "uuid": "d2553043-ddcf-42d6-83b4-842cb179ae3f",
+              "parentUUID": "dd5626f7-ae82-4215-8a62-e938728b85f5",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "tests": [
+            {
+              "title": "Login com sucesso usando Comando customizado",
+              "fullTitle": "Funcionalidade Login Login com sucesso usando Comando customizado",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.login(dadosLogin.usuario, dadosLogin.senha)\ncy.get('.page-title').should('contain', 'Minha conta')",
+              "err": {},
+              "uuid": "6cc93ece-bd6e-4330-82e9-7995aad894ed",
+              "parentUUID": "dd5626f7-ae82-4215-8a62-e938728b85f5",
+              "isHook": false,
+              "skipped": true
+            },
+            {
+              "title": "Login usando fixture",
+              "fullTitle": "Funcionalidade Login Login usando fixture",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.fixture('perfil').then((dados) => {\n    cy.login(dados.usuario, dados.senha)\n})\ncy.get('.page-title').should('contain', 'Minha conta')",
+              "err": {},
+              "uuid": "6eed359a-e47e-4390-950d-43d42eac33ce",
+              "parentUUID": "dd5626f7-ae82-4215-8a62-e938728b85f5",
+              "isHook": false,
+              "skipped": true
+            },
+            {
+              "title": "Deve fazer login com sucesso - sem otimização",
+              "fullTitle": "Funcionalidade Login Deve fazer login com sucesso - sem otimização",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get('#username').type(dadosLogin.usuario)\ncy.get('#password').type(dadosLogin.senha, { log: false })\ncy.get('.woocommerce-form > .button').click()\ncy.get('.page-title').should('contain', 'Minha conta')\ncy.get('.woocommerce-MyAccount-content > :nth-child(2)').should('contain', 'Olá, aluno_ebac')",
+              "err": {},
+              "uuid": "63f2b2ce-52bb-4f81-b7a8-992bf5705ad3",
+              "parentUUID": "dd5626f7-ae82-4215-8a62-e938728b85f5",
+              "isHook": false,
+              "skipped": true
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [
+            "6cc93ece-bd6e-4330-82e9-7995aad894ed",
+            "6eed359a-e47e-4390-950d-43d42eac33ce",
+            "63f2b2ce-52bb-4f81-b7a8-992bf5705ad3"
+          ],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "11.7.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": null,
+      "version": "6.2.0"
+    }
+  }
+}
